@@ -4,10 +4,11 @@ import requests
 def sendPhoto(chat_id):
     url = "https://api.telegram.org/bot6032345792:AAFOVOjeZDXma0r6cTd54mvXq09enfs0hT0/sendPhoto"
     payload = {'chat_id': chat_id,
-               'caption': "Join us in the Sharing Session under the topic of Money Mindset: Basic Financial Intelligence from Mr. Bunthet Cham, Director of Agency Distribution at Prudential Cambodia.\n\nYou will learn essential financial intelligence to build wealth and happiness and exciting career opportunities with Prudential Cambodia.\n\n📅  Wednesday, 21st Feb 2024\n⏰ 5:30 – 7:30 PM\n📍 V-trust Tower, 5th Floor\n\nDon't miss this opportunity to enhance your financial knowledge and transform your money mindset. Reserve your seat now! Link to register: https://bit.ly/BOP_1 \n\nFor more information, please contact: 095 203 222.",
-               'photo': "AgACAgUAAxkDAAEBXcNl0s4JXBHFzN5kHGaWwEDrm494wAACv7kxGxGSmVZqkrRHf7YK4AEAAwIAA3MAAzQE"}
+               'caption': "រីករាយថ្ងៃកំណើតសម្រាប់អតិថិជន ដែលមានខែកំណើតនៅក្នុងខែមករា និងខែកុម្ភៈ ត្រៀមខ្លួនទទួលយករង្វាន់ពី ព្រូដិនសល ហើយឬនៅ!\n\nដើម្បីជាការថ្លែងអំណរគុណចំពោះអតិថិជនទាំងអស់ដែលតែងតែគាំទ្រ និងផ្ដល់ការទុកចិត្តលើ ព្រូដិនសល ក្នុងការការពារហិរញ្ញវត្ថុក្រុមគ្រួសារនិងអនាគតបុត្រធីតារបស់លោកអ្នក អតិថិជនដែលមានខែមករា និងខែកុម្ភៈ គ្រាន់តែចុះឈ្មោះចូលរួមផ្សងសំណាង លោកអ្នកនឹងមានឱកាសឈ្នះរង្វាន់ជាច្រើន។ រីករាយជាមួយសុភមង្គលជីវិត ជាមួយព្រូដិនសល!\n\nសម្រាប់ព័ត៌មានបន្ថែម និងការចុះឈ្មោះ៖  https://bit.ly/cbcfbpost \n\n#PrudentialCambodia #CustomerBirthdayRewards #LifeInsurance #TermInsurance #ProtectionPlans #SavingsPlan",
+               'photo': "AgACAgUAAxkDAAEBcoRl1WgmYQp7qUrD_TLWrgyK2cq73wAC37YxG_2JsFYenA4-nBDnlgEAAwIAA3MAAzQE"
+               }
     # files = [
-    #     ('photo', ('IMG_7861.JPG', open('IMG_7861.JPG', 'rb'), 'application/jpg'))
+    #     ('photo', ('IMG_6906.JPG', open('IMG_6906.JPG', 'rb'), 'application/jpg'))
     # ]
     headers = {}
     # response = requests.request(
